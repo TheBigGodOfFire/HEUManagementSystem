@@ -1,0 +1,263 @@
+2022-12-08 14:05:00,594 - ERROR - Main.py[:108] - Message: session not created: This version of ChromeDriver only supports Chrome version 106
+Current browser version is 108.0.5359.95 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C81353+2233171]
+	Ordinal0 [0x00C18E31+1805873]
+	Ordinal0 [0x00B266FD+812797]
+	Ordinal0 [0x00B48C6D+953453]
+	Ordinal0 [0x00B44200+934400]
+	Ordinal0 [0x00B419C9+924105]
+	Ordinal0 [0x00B7806C+1146988]
+	Ordinal0 [0x00B77A6A+1145450]
+	Ordinal0 [0x00B718A6+1120422]
+	Ordinal0 [0x00B4A73D+960317]
+	Ordinal0 [0x00B4B71F+964383]
+	GetHandleVerifier [0x00F2A2C2+2728322]
+	GetHandleVerifier [0x00F1C184+2670660]
+	GetHandleVerifier [0x00D1102A+528106]
+	GetHandleVerifier [0x00D0FE10+523472]
+	Ordinal0 [0x00C2028C+1835660]
+	Ordinal0 [0x00C24758+1853272]
+	Ordinal0 [0x00C24845+1853509]
+	Ordinal0 [0x00C2E7E4+1894372]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 102, in open_browser
+    browser = webdriver.Chrome(options=option)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    super().__init__(
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 106, in __init__
+    super().__init__(
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 288, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 381, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 106
+Current browser version is 108.0.5359.95 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00C81353+2233171]
+	Ordinal0 [0x00C18E31+1805873]
+	Ordinal0 [0x00B266FD+812797]
+	Ordinal0 [0x00B48C6D+953453]
+	Ordinal0 [0x00B44200+934400]
+	Ordinal0 [0x00B419C9+924105]
+	Ordinal0 [0x00B7806C+1146988]
+	Ordinal0 [0x00B77A6A+1145450]
+	Ordinal0 [0x00B718A6+1120422]
+	Ordinal0 [0x00B4A73D+960317]
+	Ordinal0 [0x00B4B71F+964383]
+	GetHandleVerifier [0x00F2A2C2+2728322]
+	GetHandleVerifier [0x00F1C184+2670660]
+	GetHandleVerifier [0x00D1102A+528106]
+	GetHandleVerifier [0x00D0FE10+523472]
+	Ordinal0 [0x00C2028C+1835660]
+	Ordinal0 [0x00C24758+1853272]
+	Ordinal0 [0x00C24845+1853509]
+	Ordinal0 [0x00C2E7E4+1894372]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+
+2022-12-08 14:14:24,164 - ERROR - Main.py[:139] - object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 126, in submit_info
+    if len(stu_id) != 8 or not stu_id:
+TypeError: object of type 'NoneType' has no len()
+2022-12-08 14:14:24,164 - ERROR - Main.py[:139] - object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 126, in submit_info
+    if len(stu_id) != 8 or not stu_id:
+TypeError: object of type 'NoneType' has no len()
+2022-12-08 14:14:24,164 - ERROR - Main.py[:139] - object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 126, in submit_info
+    if len(stu_id) != 8 or not stu_id:
+TypeError: object of type 'NoneType' has no len()
+2022-12-08 14:14:24,169 - ERROR - Main.py[:139] - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 114, in submit_info
+    jkm_id = browser.find_element(By.XPATH, value=jkmId)  # ½¡¿µÂëµÄinput
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+
+2022-12-08 14:14:24,169 - ERROR - Main.py[:139] - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 114, in submit_info
+    jkm_id = browser.find_element(By.XPATH, value=jkmId)  # ½¡¿µÂëµÄinput
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+
+2022-12-08 14:14:24,169 - ERROR - Main.py[:139] - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 114, in submit_info
+    jkm_id = browser.find_element(By.XPATH, value=jkmId)  # ½¡¿µÂëµÄinput
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.95)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x007DF243]
+	(No symbol) [0x00767FD1]
+	(No symbol) [0x0065D04D]
+	(No symbol) [0x00642D7A]
+	(No symbol) [0x006ABE7B]
+	(No symbol) [0x006BC196]
+	(No symbol) [0x006A8386]
+	(No symbol) [0x0068163C]
+	(No symbol) [0x0068269D]
+	GetHandleVerifier [0x00A79A22+2655074]
+	GetHandleVerifier [0x00A6CA24+2601828]
+	GetHandleVerifier [0x00888C0A+619850]
+	GetHandleVerifier [0x00887830+614768]
+	(No symbol) [0x007705FC]
+	(No symbol) [0x00775968]
+	(No symbol) [0x00775A55]
+	(No symbol) [0x0078051B]
+	BaseThreadInitThunk [0x75877BA9+25]
+	RtlInitializeExceptionChain [0x7729BB9B+107]
+	RtlClearBits [0x7729BB1F+191]
+

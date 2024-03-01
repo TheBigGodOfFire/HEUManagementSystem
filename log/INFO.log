@@ -1,0 +1,33 @@
+2022-12-09 18:07:58,123 - ERROR - Main_Off_net.py[:79] - 'int' object is not subscriptable
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 73, in run
+    self.read_text(f"{str(result[0][4])}£¬É¨Âë³É¹¦")
+TypeError: 'int' object is not subscriptable
+2022-12-09 18:14:43,330 - ERROR - Main_Off_net.py[:80] - 'QLabel' object is not callable
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 73, in run
+    self.set_ui_page(result)
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 57, in set_ui_page
+    self.info_time(datetime.now().replace(microsecond=0))
+TypeError: 'QLabel' object is not callable
+2022-12-09 18:14:43,330 - ERROR - Main_Off_net.py[:80] - 'QLabel' object is not callable
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 73, in run
+    self.set_ui_page(result)
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 57, in set_ui_page
+    self.info_time(datetime.now().replace(microsecond=0))
+TypeError: 'QLabel' object is not callable
+2022-12-09 18:15:15,177 - ERROR - Main_Off_net.py[:80] - setText(self, str): argument 1 has unexpected type 'datetime.datetime'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 73, in run
+    self.set_ui_page(result)
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 57, in set_ui_page
+    self.info_time.setText(datetime.now().replace(microsecond=0))
+TypeError: setText(self, str): argument 1 has unexpected type 'datetime.datetime'
+2022-12-09 18:15:15,177 - ERROR - Main_Off_net.py[:80] - setText(self, str): argument 1 has unexpected type 'datetime.datetime'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 73, in run
+    self.set_ui_page(result)
+  File "F:\Project\Python\python\jkm_project\Main_Off_net.py", line 57, in set_ui_page
+    self.info_time.setText(datetime.now().replace(microsecond=0))
+TypeError: setText(self, str): argument 1 has unexpected type 'datetime.datetime'

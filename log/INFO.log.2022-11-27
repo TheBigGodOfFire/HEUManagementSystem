@@ -1,0 +1,176 @@
+2022-11-27 20:04:04,142 - ERROR - Main.py[:128] - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 105, in submit_info
+    jkm_id = browser.find_element(By.XPATH, value=jkmId)  # ½¡¿µÂëµÄinput
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+
+2022-11-27 20:04:06,173 - ERROR - Main.py[:128] - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\Main.py", line 105, in submit_info
+    jkm_id = browser.find_element(By.XPATH, value=jkmId)  # ½¡¿µÂëµÄinput
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "F:\Python\Anaconda3\envs\py36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.107)
+
+2022-11-27 20:42:26,468 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
+2022-11-27 20:42:26,468 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
+2022-11-27 20:42:26,468 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
+2022-11-27 20:43:03,588 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
+2022-11-27 20:43:03,588 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
+2022-11-27 20:43:03,588 - ERROR - Main.py[:76] - No module named 'pyttsx3.drivers'
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 20, in init
+  File "weakref.py", line 137, in __getitem__
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\Main.py", line 73, in query_info
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\_VoicePrompt.py", line 11, in __init__
+    self.engine = pyttsx3.init()
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\__init__.py", line 22, in init
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\engine.py", line 30, in __init__
+  File "F:\Project\Python\python\jkm_project\out\Main.dist\pyttsx3\driver.py", line 50, in __init__
+  File "importlib.py", line 126, in import_module
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pyttsx3.drivers'
